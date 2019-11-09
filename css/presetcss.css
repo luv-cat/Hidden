@@ -1,0 +1,147 @@
+/*form部品をインライン要素にする*/
+.inline {
+	display: inline;
+}
+
+/*ブロック要素にする*/
+.block {
+	display: block;
+}
+
+/*通常のボタンを灰色に*/
+.btn-default {
+	background-color: #dadee5;
+}
+
+/*フィールド全体を指定*/
+.container-fluid {
+	padding-top: 80px;
+}
+
+/*中心よせ*/
+.text-center {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+/*ブロック要素を中央寄せ*/
+.b-center {
+  margin: 10px auto;
+  width:1000px;
+}
+
+
+/*右寄せ*/
+.right {
+	display: block;
+	margin: 0 0 0 auto;
+}
+
+.f-right{
+	display: flort;
+	float:right;
+}
+
+/*一覧をスクロールボックスにする*/
+div.listbox {
+	width: 1200px;
+	height: 500px;
+	overflow: auto;
+}
+
+.p-red{
+	color:red;
+}
+
+/*/////////////////黒バージョン////////////////////*/
+.black {
+	background-color: #3a3a3a;
+}
+
+.p-white {
+	color: #FFFFFF;
+}
+
+/*/////////////////以下サインイン///////////////////*/
+html, body {
+	height: 100%;
+}
+
+body {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #f5f5f5;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 330px;
+	padding: 15px;
+	margin: auto;
+}
+
+.form-signin .checkbox {
+	font-weight: 400;
+}
+
+.form-signin .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+	z-index: 2;
+}
+
+.form-signin input[type="email"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+/*////////////////////////サインインここまで/////////////////////////*/
+
+/*リスト黒丸なくす*/
+ul li {
+    list-style: none;
+}
+
+ul.input {
+    width: 650px;
+    margin: 0 auto;
+}
+
+/*丸形ボタン*/
+
+.btn-circle-flat {
+  display: inline-block;
+  text-decoration: none;
+  background: #87befd;
+  color: #FFF;
+  width: 250px;
+  height: 250px;
+  line-height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: .4s;
+  margin:30px;
+}
+
+.btn-circle-flat:hover {
+  background: #668ad8;
+}
